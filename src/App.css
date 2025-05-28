@@ -1,0 +1,104 @@
+nav{
+  display:flex;
+  flex-direction: row;
+  color:white;
+  background-color: black;
+  border-radius: 10px;
+  height: 8vh;
+}
+.nav-list{
+  list-style-type:none;
+  display:flex;
+  flex:1;
+  gap:500px;
+}
+.nav-link{
+  text-decoration: none;
+  color:white;
+}
+.nav-link:hover{
+  color:orange;
+}
+.container{
+  display:flex;
+  margin:10px;
+  align-content: center;
+}
+.card{
+  background-color: blue;
+  display:flex;
+  flex:1;
+  width:200px;
+  height: 200px;
+  padding:10px;
+  margin:10px;
+  gap:20px;
+}
+.promo{
+  display:flex;
+  flex-direction: column;
+  flex-grow:1;
+  background-image: url("./Images/background.jpg.jpg");
+  background-size: cover;
+  margin:10px;
+  height:100vh;
+
+}
+.Form{
+  text-align: center;
+  height: 500px;
+}
+.form,input{
+  border-radius: 10px;
+  height: 5vh;
+}
+label{
+  color:red;
+}
+footer{
+  background-color: black;
+  color:white;
+  width: max-content;
+}
+.middlediv{
+  background-color: blue;
+  height:200px;
+}
+.middletext{
+  text-align: center;
+}
+.top{
+  text-align: center;
+}
+Link:hover{
+  color: goldenrod;
+}
+.top{
+  width:max-content;
+}
+.button{
+  text-align:center;
+}
+.contact-container{
+  display: flex;
+  text-align: center;
+}
+.contact{
+  display:flex;
+  flex:1;
+  flex-direction: column;
+  border:1px solid black;
+}
+.form-field{
+  margin:10px;
+}
+.contact-header{
+  text-align: center;
+}
+label{
+  display:block;
+}
+
+
+
+

@@ -34,7 +34,7 @@ const People = [
 function About(){
     const {username, setUsername} = useContext(UserContext);
     useEffect( ()=> {
-        setUsername("Ebenezer")}, [] );
+        setUsername("Ebenezer" ``)}, [] );
     const cyber = People.filter(person=>
         person.Course=== "Nursing"
     )
@@ -52,7 +52,7 @@ function About(){
             <img src={require("./Images/background.jpg.jpg")}
             height={200}
             alt ="background" />
-            <h2>This is data shows only student studying cyber security</h2>
+            <h2>This is data shows only student studying cyber security yes it Images</h2>
             <ul>{item}</ul>
         </div>
     )
